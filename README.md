@@ -1,8 +1,8 @@
 # pkgs
 
-[![License][license]](http://www.apache.org/licenses/LICENSE-2.0)
-[![GoDoc][godoc]](https://godoc.org/github.com/malice-plugins/pkgs)
 [![GitHub Tag][tag]](https://github.com/malice-plugins/pkgs)
+[![GoDoc][godoc]](https://godoc.org/github.com/malice-plugins/pkgs)
+[![License][license]](http://www.apache.org/licenses/LICENSE-2.0)
 
 > Collection of utility packages used by the Malice project and Malice Plugins
 
