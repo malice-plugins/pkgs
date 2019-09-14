@@ -30,7 +30,7 @@ bump: ## Incriment version patch number
 .PHONY: release
 release: bump ## Create a new release from the VERSION
 	@echo " > Creating Release"
-	@hack/make/release $(shell cat VERSION)
+	@hack/make/release v$(shell cat VERSION)
 
 .PHONY: re_release
 re_release: ## Create a new release from the VERSION
