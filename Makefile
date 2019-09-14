@@ -35,4 +35,4 @@ release: bump ## Create a new release from the VERSION
 .PHONY: re_release
 re_release: ## Create a new release from the VERSION
 	@echo " > Recreating Release"
-	@hack/make/release "v${VERSION}"
+	@hack/make/release v$(shell cat VERSION)
