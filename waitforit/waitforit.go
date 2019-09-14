@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 const regexAddressConn string = `^([a-z]{3,}):\/\/([^:]+):?([0-9]+)?$`

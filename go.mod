@@ -1,11 +1,25 @@
 module github.com/malice-plugins/pkgs
 
 require (
-	github.com/fortytw2/leaktest v1.2.0 // indirect
-	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 // indirect
-	github.com/olivere/elastic v6.2.15+incompatible // indirect
-	github.com/opentracing/opentracing-go v1.0.2 // indirect
-	github.com/pkg/errors v0.8.1 // indirect
-	github.com/smartystreets/go-aws-auth v0.0.0-20180515143844-0c1422d1fdb9 // indirect
-	golang.org/x/net v0.0.0-20180826012351-8a410e7b638d // indirect
+	github.com/bitly/go-hostpool v0.0.0-20171023180738-a3a6125de932 // indirect
+	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
+	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
+	github.com/elazarl/goproxy v0.0.0-20190911111923-ecfe977594f1 // indirect
+	github.com/golang/protobuf v1.3.2 // indirect
+	github.com/google/go-cmp v0.3.1 // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
+	github.com/mailru/easyjson v0.7.0 // indirect
+	github.com/mattn/go-runewidth v0.0.4
+	github.com/moul/http2curl v1.0.0 // indirect
+	github.com/olivere/elastic/v7 v7.0.6
+	github.com/parnurzeal/gorequest v0.2.15
+	github.com/pkg/errors v0.8.1
+	github.com/sirupsen/logrus v1.4.2
+	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
+	golang.org/x/crypto v0.0.0-20190911031432-227b76d455e7 // indirect
+	golang.org/x/net v0.0.0-20190912160710-24e19bdeb0f2 // indirect
+	golang.org/x/sys v0.0.0-20190913121621-c3b328c6e5a7 // indirect
+	gopkg.in/rethinkdb/rethinkdb-go.v5 v5.0.1
 )
+
+go 1.13

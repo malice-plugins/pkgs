@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/maliceio/pkgs/utils"
-	r "gopkg.in/dancannon/gorethink.v2"
+	"github.com/malice-plugins/pkgs/utils"
+	log "github.com/sirupsen/logrus"
+	r "gopkg.in/rethinkdb/rethinkdb-go.v5"
 )
 
 var (
