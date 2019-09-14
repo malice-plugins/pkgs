@@ -15,8 +15,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-
-	"github.com/parnurzeal/gorequest"
 )
 
 // AppHelpTemplate is a default malice plugin help template
@@ -120,10 +118,6 @@ func RunCommand(ctx context.Context, cmd string, args ...string) (string, error)
 	}
 
 	return string(output), nil
-}
-
-func printStatus(resp gorequest.Response, body string, errs []error) {
-	fmt.Println(resp.Status)
 }
 
 // RemoveDuplicates removes duplicate items from a list
